@@ -71,18 +71,18 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        'numpy==1.16',
-        'tensorflow>=1.13,<1.14',  # Must be on piwheels
+        'numpy',
+        'tensorflow',  # Must be on piwheels
         'sonopy',
         'pyaudio',
-        'keras<=2.1.5',
+        'keras',
         'h5py',
         'wavio',
         'typing',
-        'prettyparse>=1.1.0',
+        'prettyparse',
         'precise-runner',
         'attrs',
-        'fitipy<1.0',
+        'fitipy',
         'speechpy-fast',
         'pyache'
     ]
